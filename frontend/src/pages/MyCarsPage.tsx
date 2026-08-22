@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import api from '../services/api';
 
+
 interface Car {
     id: string;
     title: string;
@@ -56,6 +57,12 @@ export default function MyCarsPage() {
                             >
                                 Удалить
                             </button>
+                            <Link
+                                to={`/cars/${car.id}/edit`}
+                                className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
+                            >
+                                Редактировать
+                            </Link>
                         </div>
                     ))}
                 </div>

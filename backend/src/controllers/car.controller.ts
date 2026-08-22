@@ -131,6 +131,46 @@ export const getUserCars = async (req: Request, res: Response) => {
         res.status(500).json({ message: 'Server error' });
     }
 };
+export const updateCar = async (req: Request, res: Response) => {
+    try {
+        const id = String(req.params.id);
+        const userId = (req as any).user.userId;
+        const { title, description, brand, model, year, mileage, price, fuelType, transmission, color, photos } = req.body;
+
+        const car = await prisma.car.findUnique({ where: { id } });
+
+        if (!car) {
+            return res.status(404).json({ message: 'Car not found' });
+        }
+
+        if (car.userId !== userId) {
+            return res.status(403).json({ message: 'Not authorized' });
+        }
+
+        const updatedCar = await prisma.car.update({
+            where: { id },
+            data: {
+                title,
+                description,
+                brand,
+                model,
+                year,
+                mileage,
+                price,
+                fuelType,
+                transmission,
+                color,
+                photos
+            }
+        });
+
+        res.json(updatedCar);
+    } catch (error) {
+        console.error('Update car error:', error);
+        res.status(500).json({ message: 'Server error' });
+    }
+};
+
 
 export const deleteCar = async (req: Request, res: Response) => {
     try {
