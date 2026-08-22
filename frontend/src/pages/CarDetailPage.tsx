@@ -29,23 +29,36 @@ export default function CarDetailPage() {
         api.get(`/cars/${id}`).then((res) => setCar(res.data));
     }, [id]);
 
-    if (!car) return <div>Загрузка...</div>;
+    if (!car) return <div className="text-center mt-20">Загрузка...</div>;
 
     return (
-        <div>
-            <h1>{car.title}</h1>
-            <p>{car.description}</p>
-            <p>Марка: {car.brand}</p>
-            <p>Модель: {car.model}</p>
-            <p>Год: {car.year}</p>
-            <p>Пробег: {car.mileage} км</p>
-            <p>Цена: {car.price} €</p>
-            <p>Топливо: {car.fuelType}</p>
-            <p>Коробка: {car.transmission}</p>
-            <p>Цвет: {car.color}</p>
-            <h3>Продавец</h3>
-            <p>{car.user.firstName} {car.user.lastName}</p>
-            <p>{car.user.email}</p>
+        <div className="max-w-4xl mx-auto mt-10 p-6">
+            <h1 className="text-4xl font-bold mb-4">{car.title}</h1>
+            <div className="bg-white border rounded-lg p-6 shadow-sm">
+                <div className="grid grid-cols-2 gap-6">
+                    <div>
+                        <h2 className="text-xl font-semibold mb-4">Характеристики</h2>
+                        <p className="mb-2"><span className="font-semibold">Марка:</span> {car.brand}</p>
+                        <p className="mb-2"><span className="font-semibold">Модель:</span> {car.model}</p>
+                        <p className="mb-2"><span className="font-semibold">Год:</span> {car.year}</p>
+                        <p className="mb-2"><span className="font-semibold">Пробег:</span> {car.mileage} км</p>
+                        <p className="mb-2"><span className="font-semibold">Топливо:</span> {car.fuelType}</p>
+                        <p className="mb-2"><span className="font-semibold">Коробка:</span> {car.transmission}</p>
+                        <p className="mb-2"><span className="font-semibold">Цвет:</span> {car.color}</p>
+                    </div>
+                    <div>
+                        <h2 className="text-xl font-semibold mb-4">Цена</h2>
+                        <p className="text-4xl font-bold text-green-600 mb-6">{car.price} €</p>
+                        <h2 className="text-xl font-semibold mb-4">Описание</h2>
+                        <p className="text-gray-700">{car.description}</p>
+                    </div>
+                </div>
+                <div className="mt-6 pt-6 border-t">
+                    <h2 className="text-xl font-semibold mb-4">Продавец</h2>
+                    <p className="mb-2">{car.user.firstName} {car.user.lastName}</p>
+                    <p className="text-gray-600">{car.user.email}</p>
+                </div>
+            </div>
         </div>
     );
 }
