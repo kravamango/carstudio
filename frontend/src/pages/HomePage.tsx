@@ -14,6 +14,8 @@ interface Car {
 
 export default function HomePage() {
     const [cars, setCars] = useState<Car[]>([]);
+    const [page, setPage] = useState(1);
+    const [totalPages, setTotalPages] = useState(1);
     const [filters, setFilters] = useState({
         brand: '',
         minPrice: '',
@@ -31,14 +33,17 @@ export default function HomePage() {
         if (filters.minYear) params.append('minYear', filters.minYear);
         if (filters.maxYear) params.append('maxYear', filters.maxYear);
         if (filters.search) params.append('search', filters.search);
+        params.append('page', String(page));
+        params.append('limit', '6');
 
         const res = await api.get(`/cars?${params.toString()}`);
-        setCars(res.data);
+        setCars(res.data.cars);
+        setTotalPages(res.data.totalPages);
     };
 
     useEffect(() => {
         fetchCars();
-    }, []);
+    }, [page]);
 
     return (
         <div className="max-w-6xl mx-auto p-6">
@@ -78,7 +83,7 @@ export default function HomePage() {
                     </div>
                 </div>
                 <button
-                    onClick={fetchCars}
+                    onClick={() => { setPage(1); fetchCars(); }}
                     className="mt-4 bg-blue-500 text-white px-6 py-2 rounded hover:bg-blue-600"
                 >
                     Применить фильтры
@@ -112,6 +117,28 @@ export default function HomePage() {
                     </Link>
                 ))}
             </div>
+
+            {totalPages > 1 && (
+                <div className="flex justify-center gap-2 mt-8">
+                    <button
+                        onClick={() => setPage(page - 1)}
+                        disabled={page === 1}
+                        className="px-4 py-2 border rounded disabled:opacity-50"
+                    >
+                        Назад
+                    </button>
+                    <span className="px-4 py-2">
+            {page} / {totalPages}
+          </span>
+                    <button
+                        onClick={() => setPage(page + 1)}
+                        disabled={page === totalPages}
+                        className="px-4 py-2 border rounded disabled:opacity-50"
+                    >
+                        Вперёд
+                    </button>
+                </div>
+            )}
         </div>
     );
 }

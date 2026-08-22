@@ -36,6 +36,10 @@ export const createCar = async (req: Request, res: Response) => {
 
 export const getCars = async (req: Request, res: Response) => {
     try {
+        const page = Number(req.query.page) || 1;
+        const limit = Number(req.query.limit) || 6;
+        const skip = (page - 1) * limit;
+
         const { brand, minPrice, maxPrice, minYear, maxYear, search } = req.query;
 
         const where: any = { status: 'active' };
@@ -66,7 +70,18 @@ export const getCars = async (req: Request, res: Response) => {
                     }
                 }
             },
-            orderBy: { createdAt: 'desc' }
+            orderBy: { createdAt: 'desc' },
+            skip,
+            take: limit
+        });
+
+        const total = await prisma.car.count({ where });
+
+        res.json({
+            cars,
+            total,
+            page,
+            totalPages: Math.ceil(total / limit)
         });
 
         res.json(cars);
