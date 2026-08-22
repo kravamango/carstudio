@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import api from '../services/api';
+import carsData from '../../data/cars.json';
 
 interface Car {
     id: string;
@@ -9,6 +10,7 @@ interface Car {
     year: number;
     mileage: number;
     brand: string;
+    model: string;
     photos: string[];
 }
 
@@ -16,29 +18,26 @@ export default function HomePage() {
     const [cars, setCars] = useState<Car[]>([]);
     const [page, setPage] = useState(1);
     const [totalPages, setTotalPages] = useState(1);
-    const [filters, setFilters] = useState({
-        brand: '',
-        minPrice: '',
-        maxPrice: '',
-        minYear: '',
-        maxYear: '',
-        search: ''
-    });
+    const [loading, setLoading] = useState(true);
+    const [search, setSearch] = useState('');
+    const [selectedBrand, setSelectedBrand] = useState('');
+    const [selectedModel, setSelectedModel] = useState('');
+
+    const brandData = carsData.find((c: any) => c.brand === selectedBrand);
 
     const fetchCars = async () => {
+        setLoading(true);
         const params = new URLSearchParams();
-        if (filters.brand) params.append('brand', filters.brand);
-        if (filters.minPrice) params.append('minPrice', filters.minPrice);
-        if (filters.maxPrice) params.append('maxPrice', filters.maxPrice);
-        if (filters.minYear) params.append('minYear', filters.minYear);
-        if (filters.maxYear) params.append('maxYear', filters.maxYear);
-        if (filters.search) params.append('search', filters.search);
+        if (search) params.append('search', search);
+        if (selectedBrand) params.append('brand', selectedBrand);
+        if (selectedModel) params.append('model', selectedModel);
         params.append('page', String(page));
-        params.append('limit', '6');
+        params.append('limit', '9');
 
         const res = await api.get(`/cars?${params.toString()}`);
         setCars(res.data.cars);
         setTotalPages(res.data.totalPages);
+        setLoading(false);
     };
 
     useEffect(() => {
@@ -46,99 +45,120 @@ export default function HomePage() {
     }, [page]);
 
     return (
-        <div className="max-w-6xl mx-auto p-6">
-            <h1 className="text-3xl font-bold mb-6">Автомобили</h1>
-
-            <div className="bg-white border rounded-lg p-4 mb-6">
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                    <input
-                        type="text"
-                        placeholder="Поиск..."
-                        value={filters.search}
-                        onChange={(e) => setFilters({ ...filters, search: e.target.value })}
-                        className="border rounded px-4 py-2"
-                    />
-                    <input
-                        type="text"
-                        placeholder="Марка"
-                        value={filters.brand}
-                        onChange={(e) => setFilters({ ...filters, brand: e.target.value })}
-                        className="border rounded px-4 py-2"
-                    />
-                    <div className="flex gap-2">
+        <div>
+            {/* Поиск */}
+            <div className="bg-white border-b border-slate-200 py-8">
+                <div className="max-w-5xl mx-auto px-6">
+                    <h1 className="text-2xl font-bold text-slate-900 mb-6 text-center">
+                        Продажа автомобилей
+                    </h1>
+                    <div className="flex flex-col md:flex-row gap-3">
                         <input
-                            type="number"
-                            placeholder="Цена от"
-                            value={filters.minPrice}
-                            onChange={(e) => setFilters({ ...filters, minPrice: e.target.value })}
-                            className="border rounded px-4 py-2 w-full"
+                            type="text"
+                            placeholder="Поиск по объявлениям..."
+                            value={search}
+                            onChange={(e) => setSearch(e.target.value)}
+                            onKeyPress={(e) => e.key === 'Enter' && (setPage(1), fetchCars())}
+                            className="flex-1 border-2 border-slate-200 rounded-lg px-4 py-3 focus:outline-none focus:border-red-500"
                         />
-                        <input
-                            type="number"
-                            placeholder="до"
-                            value={filters.maxPrice}
-                            onChange={(e) => setFilters({ ...filters, maxPrice: e.target.value })}
-                            className="border rounded px-4 py-2 w-full"
-                        />
+                        <select
+                            value={selectedBrand}
+                            onChange={(e) => { setSelectedBrand(e.target.value); setSelectedModel(''); }}
+                            className="border-2 border-slate-200 rounded-lg px-4 py-3 focus:outline-none focus:border-red-500 bg-white"
+                        >
+                            <option value="">Все марки</option>
+                            {carsData.map((car: any) => (
+                                <option key={car.brand} value={car.brand}>{car.brand}</option>
+                            ))}
+                        </select>
+                        <select
+                            value={selectedModel}
+                            onChange={(e) => setSelectedModel(e.target.value)}
+                            disabled={!selectedBrand}
+                            className="border-2 border-slate-200 rounded-lg px-4 py-3 focus:outline-none focus:border-red-500 bg-white disabled:opacity-50"
+                        >
+                            <option value="">Все модели</option>
+                            {brandData?.models.map((m: any) => (
+                                <option key={m.name} value={m.name}>{m.name}</option>
+                            ))}
+                        </select>
+                        <button
+                            onClick={() => { setPage(1); fetchCars(); }}
+                            className="bg-red-600 text-white px-8 py-3 rounded-lg hover:bg-red-700 transition font-medium"
+                        >
+                            Найти
+                        </button>
                     </div>
                 </div>
-                <button
-                    onClick={() => { setPage(1); fetchCars(); }}
-                    className="mt-4 bg-blue-500 text-white px-6 py-2 rounded hover:bg-blue-600"
-                >
-                    Применить фильтры
-                </button>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {cars.map((car) => (
-                    <Link
-                        to={`/cars/${car.id}`}
-                        key={car.id}
-                        className="border rounded-lg overflow-hidden hover:shadow-lg transition bg-white"
-                    >
-                        {car.photos && car.photos.length > 0 ? (
-                            <img
-                                src={`http://localhost:5001${car.photos[0]}`}
-                                alt={car.title}
-                                className="w-full h-48 object-cover"
-                            />
-                        ) : (
-                            <div className="w-full h-48 bg-gray-200 flex items-center justify-center text-gray-400">
-                                Нет фото
-                            </div>
-                        )}
-                        <div className="p-4">
-                            <h3 className="text-xl font-semibold mb-2">{car.title}</h3>
-                            <p className="text-gray-600">Год: {car.year}</p>
-                            <p className="text-gray-600">Пробег: {car.mileage} км</p>
-                            <p className="text-2xl font-bold text-green-600 mt-2">{car.price} €</p>
-                        </div>
-                    </Link>
-                ))}
-            </div>
+            {/* Список */}
+            <div className="max-w-7xl mx-auto p-6">
+                <h2 className="text-lg font-semibold text-slate-700 mb-4">
+                    {loading ? 'Загрузка...' : `Найдено объявлений: ${cars.length}`}
+                </h2>
 
-            {totalPages > 1 && (
-                <div className="flex justify-center gap-2 mt-8">
-                    <button
-                        onClick={() => setPage(page - 1)}
-                        disabled={page === 1}
-                        className="px-4 py-2 border rounded disabled:opacity-50"
-                    >
-                        Назад
-                    </button>
-                    <span className="px-4 py-2">
-            {page} / {totalPages}
-          </span>
-                    <button
-                        onClick={() => setPage(page + 1)}
-                        disabled={page === totalPages}
-                        className="px-4 py-2 border rounded disabled:opacity-50"
-                    >
-                        Вперёд
-                    </button>
-                </div>
-            )}
+                {loading ? (
+                    <div className="text-center py-20 text-slate-500">Загрузка...</div>
+                ) : (
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+                        {cars.map((car) => (
+                            <Link
+                                to={`/cars/${car.id}`}
+                                key={car.id}
+                                className="bg-white rounded-xl overflow-hidden hover:shadow-md transition border border-slate-100"
+                            >
+                                {car.photos && car.photos.length > 0 ? (
+                                    <img
+                                        src={`http://localhost:5001${car.photos[0]}`}
+                                        alt={car.title}
+                                        className="w-full h-52 object-cover"
+                                    />
+                                ) : (
+                                    <div className="w-full h-52 bg-slate-100 flex items-center justify-center text-6xl">
+                                        🚗
+                                    </div>
+                                )}
+                                <div className="p-5">
+                                    <h3 className="font-semibold text-lg text-slate-900 truncate">
+                                        {car.brand} {car.model}
+                                    </h3>
+                                    <div className="flex gap-2 text-sm text-slate-500 mt-2">
+                                        <span>{car.year}</span>
+                                        <span>•</span>
+                                        <span>{car.mileage.toLocaleString()} км</span>
+                                    </div>
+                                    <p className="text-2xl font-bold text-slate-900 mt-3">
+                                        {car.price.toLocaleString()} €
+                                    </p>
+                                </div>
+                            </Link>
+                        ))}
+                    </div>
+                )}
+
+                {totalPages > 1 && (
+                    <div className="flex justify-center gap-2 mt-8">
+                        <button
+                            onClick={() => setPage(page - 1)}
+                            disabled={page === 1}
+                            className="px-5 py-2 bg-white border rounded-lg hover:bg-slate-50 disabled:opacity-50"
+                        >
+                            ←
+                        </button>
+                        <span className="px-5 py-2 bg-red-600 text-white rounded-lg font-medium">
+              {page} / {totalPages}
+            </span>
+                        <button
+                            onClick={() => setPage(page + 1)}
+                            disabled={page === totalPages}
+                            className="px-5 py-2 bg-white border rounded-lg hover:bg-slate-50 disabled:opacity-50"
+                        >
+                            →
+                        </button>
+                    </div>
+                )}
+            </div>
         </div>
     );
 }

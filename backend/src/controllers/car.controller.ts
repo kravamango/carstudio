@@ -40,11 +40,12 @@ export const getCars = async (req: Request, res: Response) => {
         const limit = Number(req.query.limit) || 6;
         const skip = (page - 1) * limit;
 
-        const { brand, minPrice, maxPrice, minYear, maxYear, search } = req.query;
+        const { brand, model, minPrice, maxPrice, minYear, maxYear, search } = req.query;
 
         const where: any = { status: 'active' };
 
         if (brand) where.brand = brand as string;
+        if (model) where.model = model as string;
         if (minPrice) where.price = { ...where.price, gte: Number(minPrice) };
         if (maxPrice) where.price = { ...where.price, lte: Number(maxPrice) };
         if (minYear) where.year = { ...where.year, gte: Number(minYear) };

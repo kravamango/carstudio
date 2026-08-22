@@ -1,0 +1,3412 @@
+[
+  {
+    "brand": "Volkswagen",
+    "models": [
+      {
+        "name": "Golf",
+        "generations": [
+          {
+            "gen": "Golf 1",
+            "years": "1974-1983",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Volkswagen_Golf_1-2_%28cropped%29.jpg/500px-Volkswagen_Golf_1-2_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "Golf 2",
+            "years": "1983-1991",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/VW_Golf_II_front_20080206.jpg/500px-VW_Golf_II_front_20080206.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "Golf 3",
+            "years": "1991-1997",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/1996-1998_Volkswagen_Golf_%281H%29_CL_5-door_hatchback_03.jpg/500px-1996-1998_Volkswagen_Golf_%281H%29_CL_5-door_hatchback_03.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "Golf 4",
+            "years": "1997-2003",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/2003_Volkswagen_Golf_Match_-_1390cc_1.4_%2875PS%29_Petrol_-_Reflex_Silver_-_02-2025%2C_Front.jpg/500px-2003_Volkswagen_Golf_Match_-_1390cc_1.4_%2875PS%29_Petrol_-_Reflex_Silver_-_02-2025%2C_Front.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "Golf 5",
+            "years": "2003-2008",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/2007_Volkswagen_Golf_%281K_MY07%29_Sportline_2.0_TDI_5-door_hatchback_%282010-07-05%29.jpg/500px-2007_Volkswagen_Golf_%281K_MY07%29_Sportline_2.0_TDI_5-door_hatchback_%282010-07-05%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "Golf 6",
+            "years": "2008-2012",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/VW_Golf_%28VI%29_front_20110115.jpg/500px-VW_Golf_%28VI%29_front_20110115.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "Golf 7",
+            "years": "2012-2019"
+          },
+          {
+            "gen": "Golf 8",
+            "years": "2019-н.в."
+          }
+        ]
+      },
+      {
+        "name": "Passat",
+        "generations": [
+          {
+            "gen": "Passat B1",
+            "years": "1973-1980",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Vw_passat_b1_v_sst.jpg/500px-Vw_passat_b1_v_sst.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "Passat B2",
+            "years": "1980-1988"
+          },
+          {
+            "gen": "Passat B3",
+            "years": "1988-1993",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/VW_Passat_B3_front_20071205.jpg/500px-VW_Passat_B3_front_20071205.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "Passat B4",
+            "years": "1993-1996"
+          },
+          {
+            "gen": "Passat B5",
+            "years": "1996-2005"
+          },
+          {
+            "gen": "Passat B6",
+            "years": "2005-2010"
+          },
+          {
+            "gen": "Passat B7",
+            "years": "2010-2014",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/2010_Volkswagen_Passat_Highline_TDi_140_2.0_Front.jpg/500px-2010_Volkswagen_Passat_Highline_TDi_140_2.0_Front.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "Passat B8",
+            "years": "2014-н.в.",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/2017_Volkswagen_Passat_SE_Business_TDi_BM_2.0.jpg/500px-2017_Volkswagen_Passat_SE_Business_TDi_BM_2.0.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          }
+        ]
+      },
+      {
+        "name": "Polo",
+        "generations": [
+          {
+            "gen": "Polo 1",
+            "years": "1975-1981"
+          },
+          {
+            "gen": "Polo 2",
+            "years": "1981-1994"
+          },
+          {
+            "gen": "Polo 3",
+            "years": "1994-2001"
+          },
+          {
+            "gen": "Polo 4",
+            "years": "2001-2009"
+          },
+          {
+            "gen": "Polo 5",
+            "years": "2009-2017"
+          },
+          {
+            "gen": "Polo 6",
+            "years": "2017-н.в."
+          }
+        ]
+      },
+      {
+        "name": "Tiguan",
+        "generations": [
+          {
+            "gen": "Tiguan 1",
+            "years": "2007-2016"
+          },
+          {
+            "gen": "Tiguan 2",
+            "years": "2016-н.в."
+          }
+        ]
+      },
+      {
+        "name": "Touareg",
+        "generations": [
+          {
+            "gen": "Touareg 1",
+            "years": "2002-2010"
+          },
+          {
+            "gen": "Touareg 2",
+            "years": "2010-2018"
+          },
+          {
+            "gen": "Touareg 3",
+            "years": "2018-н.в."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "BMW",
+    "models": [
+      {
+        "name": "3 Series",
+        "generations": [
+          {
+            "gen": "E21",
+            "years": "1975-1983",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/E21_BMW_316.jpg/500px-E21_BMW_316.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "E30",
+            "years": "1982-1994",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/BMW_E30_in_silver_%28facelift%29%2C_front_left_2024-08-18.jpg/500px-BMW_E30_in_silver_%28facelift%29%2C_front_left_2024-08-18.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "E36",
+            "years": "1990-2000",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/1991-1996_BMW_318i_%28E36%29_sedan_%282011-04-02%29_01.jpg/500px-1991-1996_BMW_318i_%28E36%29_sedan_%282011-04-02%29_01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "E46",
+            "years": "1998-2006",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/BMW_E46_front_20080328.jpg/500px-BMW_E46_front_20080328.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "E90",
+            "years": "2005-2013",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/2005-2008_BMW_320i_%28E90%29_sedan_%282011-07-17%29_01.jpg/500px-2005-2008_BMW_320i_%28E90%29_sedan_%282011-07-17%29_01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "F30",
+            "years": "2011-2019",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/2012_BMW_318d_Sport_Automatic_2.0.jpg/500px-2012_BMW_318d_Sport_Automatic_2.0.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "G20",
+            "years": "2018-н.в.",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/2019_BMW_318d_SE_Automatic_2.0_Front.jpg/500px-2019_BMW_318d_SE_Automatic_2.0_Front.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          }
+        ]
+      },
+      {
+        "name": "5 Series",
+        "generations": [
+          {
+            "gen": "E12",
+            "years": "1972-1981",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/BMW_525_%283538948081%29.jpg/500px-BMW_525_%283538948081%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "E28",
+            "years": "1981-1988",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/1983_BMW_528i_%28E28%29_sedan_%2821539857803%29.jpg/500px-1983_BMW_528i_%28E28%29_sedan_%2821539857803%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "E34",
+            "years": "1988-1996",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/1989_BMW_525i_%28E34%29_sedan_%282015-11-13%29_01.jpg/500px-1989_BMW_525i_%28E34%29_sedan_%282015-11-13%29_01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "E39",
+            "years": "1995-2003",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/2000-2003_BMW_525i_%28E39%29_Executive_sedan_%282010-10-02%29_01.jpg/500px-2000-2003_BMW_525i_%28E39%29_Executive_sedan_%282010-10-02%29_01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "E60",
+            "years": "2003-2010",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/2003_BMW_520i_SE_2.2_Front.jpg/500px-2003_BMW_520i_SE_2.2_Front.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "F10",
+            "years": "2010-2017",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/BMW_550i_%28F10%29_%E2%80%93_Frontansicht_%282%29%2C_17._Juli_2011%2C_Mettmann.jpg/500px-BMW_550i_%28F10%29_%E2%80%93_Frontansicht_%282%29%2C_17._Juli_2011%2C_Mettmann.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "G30",
+            "years": "2016-н.в.",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/2018_BMW_520d_M_Sport_Automatic_2.0_%281%29.jpg/500px-2018_BMW_520d_M_Sport_Automatic_2.0_%281%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          }
+        ]
+      },
+      {
+        "name": "7 Series",
+        "generations": [
+          {
+            "gen": "E23",
+            "years": "1977-1986",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/1977_BMW_733i_%28E23%29_%2852830035314%29.jpg/500px-1977_BMW_733i_%28E23%29_%2852830035314%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "E32",
+            "years": "1986-1994"
+          },
+          {
+            "gen": "E38",
+            "years": "1994-2001"
+          },
+          {
+            "gen": "E65",
+            "years": "2001-2008"
+          },
+          {
+            "gen": "F01",
+            "years": "2008-2015"
+          },
+          {
+            "gen": "G11",
+            "years": "2015-н.в."
+          }
+        ]
+      },
+      {
+        "name": "X3",
+        "generations": [
+          {
+            "gen": "E83",
+            "years": "2003-2010"
+          },
+          {
+            "gen": "F25",
+            "years": "2010-2017"
+          },
+          {
+            "gen": "G01",
+            "years": "2017-н.в."
+          }
+        ]
+      },
+      {
+        "name": "X5",
+        "generations": [
+          {
+            "gen": "E53",
+            "years": "1999-2006"
+          },
+          {
+            "gen": "E70",
+            "years": "2006-2013",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Wiki_edit_x5.jpg/500px-Wiki_edit_x5.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "F15",
+            "years": "2013-2018",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/2016_BMW_X5_xDrive40d_M_Sport_Automatic_3.0_Front.jpg/500px-2016_BMW_X5_xDrive40d_M_Sport_Automatic_3.0_Front.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "G05",
+            "years": "2018-н.в."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Mercedes-Benz",
+    "models": [
+      {
+        "name": "A-Class",
+        "generations": [
+          {
+            "gen": "W168",
+            "years": "1997-2004",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/2018_Mercedes-Benz_A200_AMG_Line_Premium_Automatic_1.3_Front.jpg/500px-2018_Mercedes-Benz_A200_AMG_Line_Premium_Automatic_1.3_Front.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "W169",
+            "years": "2004-2012",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/2018_Mercedes-Benz_A200_AMG_Line_Premium_Automatic_1.3_Front.jpg/500px-2018_Mercedes-Benz_A200_AMG_Line_Premium_Automatic_1.3_Front.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "W176",
+            "years": "2012-2018",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Mercedes-Benz_A_180_Urban_%28W_176%29_%E2%80%93_Frontansicht%2C_30._November_2014%2C_Ratingen.jpg/500px-Mercedes-Benz_A_180_Urban_%28W_176%29_%E2%80%93_Frontansicht%2C_30._November_2014%2C_Ratingen.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "W177",
+            "years": "2018-н.в."
+          }
+        ]
+      },
+      {
+        "name": "C-Class",
+        "generations": [
+          {
+            "gen": "W202",
+            "years": "1993-2000",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Mercedes-Benz_W202_C_280_DSC_8896.jpg/500px-Mercedes-Benz_W202_C_280_DSC_8896.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "W203",
+            "years": "2000-2007",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Mercedes-Benz_W203_front_20171214.jpg/500px-Mercedes-Benz_W203_front_20171214.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "W204",
+            "years": "2007-2014",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/2008_Mercedes-Benz_C300_4MATIC_Sport_Sedan%2C_07-29-2022.jpg/500px-2008_Mercedes-Benz_C300_4MATIC_Sport_Sedan%2C_07-29-2022.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "W205",
+            "years": "2014-2021"
+          },
+          {
+            "gen": "W206",
+            "years": "2021-н.в."
+          }
+        ]
+      },
+      {
+        "name": "E-Class",
+        "generations": [
+          {
+            "gen": "W124",
+            "years": "1984-1995"
+          },
+          {
+            "gen": "W210",
+            "years": "1995-2002",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Mercedes-Benz_W210_AMG_50_1X7A2522.jpg/500px-Mercedes-Benz_W210_AMG_50_1X7A2522.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "W211",
+            "years": "2002-2009",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/2005_Mercedes-Benz_E-Class_E220_Classic_%28S211%29_-_2.2_CDI_%28150PS%29_automatic_-_2025-04-05%2C_front_left.jpg/500px-2005_Mercedes-Benz_E-Class_E220_Classic_%28S211%29_-_2.2_CDI_%28150PS%29_automatic_-_2025-04-05%2C_front_left.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "W212",
+            "years": "2009-2016",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Mercedes-Benz_E_220_CDI_BlueEFFICIENCY_Elegance_%28W_212%29_%E2%80%93_Frontansicht%2C_23._September_2012%2C_D%C3%BCsseldorf.jpg/500px-Mercedes-Benz_E_220_CDI_BlueEFFICIENCY_Elegance_%28W_212%29_%E2%80%93_Frontansicht%2C_23._September_2012%2C_D%C3%BCsseldorf.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "W213",
+            "years": "2016-н.в.",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/2019_Mercedes-Benz_E220d_SE_Automatic_2.0_Front.jpg/500px-2019_Mercedes-Benz_E220d_SE_Automatic_2.0_Front.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          }
+        ]
+      },
+      {
+        "name": "S-Class",
+        "generations": [
+          {
+            "gen": "W126",
+            "years": "1979-1991",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/1987-1991_Mercedes-Benz_300_SEL_%28V_126%29_sedan_%282010-04-03%29_02.jpg/500px-1987-1991_Mercedes-Benz_300_SEL_%28V_126%29_sedan_%282010-04-03%29_02.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "W140",
+            "years": "1991-1998",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Mercedes-Benz_S-Klasse_%28W_140%2C_Facelift%29_%E2%80%93_Frontansicht%2C_10._August_2013%2C_Hilden_%28cropped%29.jpg/500px-Mercedes-Benz_S-Klasse_%28W_140%2C_Facelift%29_%E2%80%93_Frontansicht%2C_10._August_2013%2C_Hilden_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "W220",
+            "years": "1998-2005",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Mercedes-Benz_S430_W220.jpg/500px-Mercedes-Benz_S430_W220.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "W221",
+            "years": "2005-2013",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Mercedes-Benz_S_320_CDI_4MATIC_L_%28V_221%29_%E2%80%93_Frontansicht_%281%29%2C_30._August_2011%2C_D%C3%BCsseldorf.jpg/500px-Mercedes-Benz_S_320_CDI_4MATIC_L_%28V_221%29_%E2%80%93_Frontansicht_%281%29%2C_30._August_2011%2C_D%C3%BCsseldorf.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "W222",
+            "years": "2013-2020",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Mercedes-Benz_W_222_S_350_Bluetec.JPG/500px-Mercedes-Benz_W_222_S_350_Bluetec.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "W223",
+            "years": "2020-н.в.",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Mercedes-Benz_W223_IMG_3951.jpg/500px-Mercedes-Benz_W223_IMG_3951.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          }
+        ]
+      },
+      {
+        "name": "GLC",
+        "generations": [
+          {
+            "gen": "X253",
+            "years": "2015-2022"
+          },
+          {
+            "gen": "X254",
+            "years": "2022-н.в."
+          }
+        ]
+      },
+      {
+        "name": "GLE",
+        "generations": [
+          {
+            "gen": "W166",
+            "years": "2011-2018",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Mercedes-Benz_GLE_350_d_4MATIC_AMG_Line_%28V_167%29_%E2%80%93_f_18042021.jpg/500px-Mercedes-Benz_GLE_350_d_4MATIC_AMG_Line_%28V_167%29_%E2%80%93_f_18042021.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "W167",
+            "years": "2018-н.в.",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Mercedes-Benz_GLE_350_d_4MATIC_AMG_Line_%28V_167%29_%E2%80%93_f_18042021.jpg/500px-Mercedes-Benz_GLE_350_d_4MATIC_AMG_Line_%28V_167%29_%E2%80%93_f_18042021.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          }
+        ]
+      },
+      {
+        "name": "G-Class",
+        "generations": [
+          {
+            "gen": "W460",
+            "years": "1979-1991",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Mercedes-Benz_W463_G_350_BlueTEC_01.jpg/500px-Mercedes-Benz_W463_G_350_BlueTEC_01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "W463",
+            "years": "1990-2018",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Mercedes-Benz_W463_G_350_BlueTEC_01.jpg/500px-Mercedes-Benz_W463_G_350_BlueTEC_01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "W464",
+            "years": "2018-н.в."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Audi",
+    "models": [
+      {
+        "name": "A3",
+        "generations": [
+          {
+            "gen": "8L",
+            "years": "1996-2003"
+          },
+          {
+            "gen": "8P",
+            "years": "2003-2012"
+          },
+          {
+            "gen": "8V",
+            "years": "2012-2020"
+          },
+          {
+            "gen": "8Y",
+            "years": "2020-н.в."
+          }
+        ]
+      },
+      {
+        "name": "A4",
+        "generations": [
+          {
+            "gen": "B5",
+            "years": "1994-2000"
+          },
+          {
+            "gen": "B6",
+            "years": "2000-2004"
+          },
+          {
+            "gen": "B7",
+            "years": "2004-2008"
+          },
+          {
+            "gen": "B8",
+            "years": "2008-2015"
+          },
+          {
+            "gen": "B9",
+            "years": "2015-н.в."
+          }
+        ]
+      },
+      {
+        "name": "A6",
+        "generations": [
+          {
+            "gen": "C4",
+            "years": "1994-1997"
+          },
+          {
+            "gen": "C5",
+            "years": "1997-2004"
+          },
+          {
+            "gen": "C6",
+            "years": "2004-2011"
+          },
+          {
+            "gen": "C7",
+            "years": "2011-2018"
+          },
+          {
+            "gen": "C8",
+            "years": "2018-н.в."
+          }
+        ]
+      },
+      {
+        "name": "Q3",
+        "generations": [
+          {
+            "gen": "8U",
+            "years": "2011-2018"
+          },
+          {
+            "gen": "F3",
+            "years": "2018-н.в."
+          }
+        ]
+      },
+      {
+        "name": "Q5",
+        "generations": [
+          {
+            "gen": "8R",
+            "years": "2008-2016"
+          },
+          {
+            "gen": "FY",
+            "years": "2016-н.в."
+          }
+        ]
+      },
+      {
+        "name": "Q7",
+        "generations": [
+          {
+            "gen": "4L",
+            "years": "2005-2015"
+          },
+          {
+            "gen": "4M",
+            "years": "2015-н.в."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Opel",
+    "models": [
+      {
+        "name": "Corsa",
+        "generations": [
+          {
+            "gen": "Corsa A",
+            "years": "1982-1992",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Opel_Corsa-e_at_IAA_2019_IMG_0738.jpg/500px-Opel_Corsa-e_at_IAA_2019_IMG_0738.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "Corsa B",
+            "years": "1993-2000",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Opel_Corsa-e_at_IAA_2019_IMG_0738.jpg/500px-Opel_Corsa-e_at_IAA_2019_IMG_0738.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "Corsa C",
+            "years": "2000-2006",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Opel_Corsa-e_at_IAA_2019_IMG_0738.jpg/500px-Opel_Corsa-e_at_IAA_2019_IMG_0738.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "Corsa D",
+            "years": "2006-2014",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Opel_Corsa-e_at_IAA_2019_IMG_0738.jpg/500px-Opel_Corsa-e_at_IAA_2019_IMG_0738.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "Corsa E",
+            "years": "2014-2019",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Opel_Corsa-e_at_IAA_2019_IMG_0738.jpg/500px-Opel_Corsa-e_at_IAA_2019_IMG_0738.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "Corsa F",
+            "years": "2019-н.в.",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Opel_Corsa-e_at_IAA_2019_IMG_0738.jpg/500px-Opel_Corsa-e_at_IAA_2019_IMG_0738.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          }
+        ]
+      },
+      {
+        "name": "Astra",
+        "generations": [
+          {
+            "gen": "Astra F",
+            "years": "1991-1998",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Opel_Astra_1.2_Turbo_Ultimate_%28L%29_%E2%80%93_f_13122024.jpg/500px-Opel_Astra_1.2_Turbo_Ultimate_%28L%29_%E2%80%93_f_13122024.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "Astra G",
+            "years": "1998-2004",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Opel_Astra_1.2_Turbo_Ultimate_%28L%29_%E2%80%93_f_13122024.jpg/500px-Opel_Astra_1.2_Turbo_Ultimate_%28L%29_%E2%80%93_f_13122024.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "Astra H",
+            "years": "2004-2009",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Opel_Astra_1.2_Turbo_Ultimate_%28L%29_%E2%80%93_f_13122024.jpg/500px-Opel_Astra_1.2_Turbo_Ultimate_%28L%29_%E2%80%93_f_13122024.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "Astra J",
+            "years": "2009-2015",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Opel_Astra_1.2_Turbo_Ultimate_%28L%29_%E2%80%93_f_13122024.jpg/500px-Opel_Astra_1.2_Turbo_Ultimate_%28L%29_%E2%80%93_f_13122024.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "Astra K",
+            "years": "2015-н.в.",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Opel_Astra_1.2_Turbo_Ultimate_%28L%29_%E2%80%93_f_13122024.jpg/500px-Opel_Astra_1.2_Turbo_Ultimate_%28L%29_%E2%80%93_f_13122024.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          }
+        ]
+      },
+      {
+        "name": "Insignia",
+        "generations": [
+          {
+            "gen": "Insignia A",
+            "years": "2008-2017",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Opel_Insignia_Sports_Tourer_1.5_DIT_Innovation_%28B%29_%E2%80%93_Frontansicht%2C_12._Mai_2017%2C_D%C3%BCsseldorf.jpg/500px-Opel_Insignia_Sports_Tourer_1.5_DIT_Innovation_%28B%29_%E2%80%93_Frontansicht%2C_12._Mai_2017%2C_D%C3%BCsseldorf.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "Insignia B",
+            "years": "2017-н.в.",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Opel_Insignia_Sports_Tourer_1.5_DIT_Innovation_%28B%29_%E2%80%93_Frontansicht%2C_12._Mai_2017%2C_D%C3%BCsseldorf.jpg/500px-Opel_Insignia_Sports_Tourer_1.5_DIT_Innovation_%28B%29_%E2%80%93_Frontansicht%2C_12._Mai_2017%2C_D%C3%BCsseldorf.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Porsche",
+    "models": [
+      {
+        "name": "911",
+        "generations": [
+          {
+            "gen": "911 Classic",
+            "years": "1963-1989"
+          },
+          {
+            "gen": "964",
+            "years": "1989-1994",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/1991_Porsche_964_Turbo_in_Summer_Yellow%2C_front_right.jpg/500px-1991_Porsche_964_Turbo_in_Summer_Yellow%2C_front_right.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "993",
+            "years": "1994-1998",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Porsche_911_Turbo_S_%281998%29_in_the_Porsche-Museum_%282009%29_1X7A0365.jpg/500px-Porsche_911_Turbo_S_%281998%29_in_the_Porsche-Museum_%282009%29_1X7A0365.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "996",
+            "years": "1998-2004",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/2003_Porsche_911_Carrera_4S_coupe%2C_front_left%2C_06-08-2024.jpg/500px-2003_Porsche_911_Carrera_4S_coupe%2C_front_left%2C_06-08-2024.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "997",
+            "years": "2004-2012",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Porsche_997_Turbo_-_Flickr_-_Alexandre_Pr%C3%A9vot_%288%29.jpg/500px-Porsche_997_Turbo_-_Flickr_-_Alexandre_Pr%C3%A9vot_%288%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "991",
+            "years": "2011-2019",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/2012_Porsche_911_Carrera_S_2.jpg/500px-2012_Porsche_911_Carrera_S_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "992",
+            "years": "2019-н.в.",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/2025_Porsche_992_Carrera_convertible_DSC_7026.jpg/500px-2025_Porsche_992_Carrera_convertible_DSC_7026.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          }
+        ]
+      },
+      {
+        "name": "Cayenne",
+        "generations": [
+          {
+            "gen": "955",
+            "years": "2002-2010"
+          },
+          {
+            "gen": "958",
+            "years": "2010-2017"
+          },
+          {
+            "gen": "9Y0",
+            "years": "2017-н.в."
+          }
+        ]
+      },
+      {
+        "name": "Panamera",
+        "generations": [
+          {
+            "gen": "970",
+            "years": "2009-2016",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Porsche_972_Turbo_E-Hybrid_IMG_0445.jpg/500px-Porsche_972_Turbo_E-Hybrid_IMG_0445.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "971",
+            "years": "2016-н.в."
+          }
+        ]
+      },
+      {
+        "name": "Macan",
+        "generations": [
+          {
+            "gen": "95B",
+            "years": "2014-н.в."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Toyota",
+    "models": [
+      {
+        "name": "Corolla",
+        "generations": [
+          {
+            "gen": "E30",
+            "years": "1966-1970"
+          },
+          {
+            "gen": "E50",
+            "years": "1970-1978"
+          },
+          {
+            "gen": "E70",
+            "years": "1979-1987"
+          },
+          {
+            "gen": "E90",
+            "years": "1987-1991"
+          },
+          {
+            "gen": "E100",
+            "years": "1991-1997"
+          },
+          {
+            "gen": "E110",
+            "years": "1997-2002"
+          },
+          {
+            "gen": "E120",
+            "years": "2000-2006"
+          },
+          {
+            "gen": "E140",
+            "years": "2006-2013"
+          },
+          {
+            "gen": "E170",
+            "years": "2013-2018"
+          },
+          {
+            "gen": "E210",
+            "years": "2018-н.в."
+          }
+        ]
+      },
+      {
+        "name": "Camry",
+        "generations": [
+          {
+            "gen": "V10",
+            "years": "1982-1986"
+          },
+          {
+            "gen": "V20",
+            "years": "1986-1991"
+          },
+          {
+            "gen": "V30",
+            "years": "1990-1996"
+          },
+          {
+            "gen": "V40",
+            "years": "1996-2001"
+          },
+          {
+            "gen": "V50",
+            "years": "2001-2006"
+          },
+          {
+            "gen": "V60",
+            "years": "2006-2011"
+          },
+          {
+            "gen": "V70",
+            "years": "2011-2017"
+          },
+          {
+            "gen": "V80",
+            "years": "2017-н.в."
+          }
+        ]
+      },
+      {
+        "name": "RAV4",
+        "generations": [
+          {
+            "gen": "XA10",
+            "years": "1994-2000"
+          },
+          {
+            "gen": "XA20",
+            "years": "2000-2005"
+          },
+          {
+            "gen": "XA30",
+            "years": "2005-2013"
+          },
+          {
+            "gen": "XA40",
+            "years": "2013-2018"
+          },
+          {
+            "gen": "XA50",
+            "years": "2018-н.в."
+          }
+        ]
+      },
+      {
+        "name": "Land Cruiser",
+        "generations": [
+          {
+            "gen": "J40",
+            "years": "1960-1984"
+          },
+          {
+            "gen": "J60",
+            "years": "1980-1990"
+          },
+          {
+            "gen": "J80",
+            "years": "1990-1997"
+          },
+          {
+            "gen": "J100",
+            "years": "1998-2007"
+          },
+          {
+            "gen": "J200",
+            "years": "2007-2021"
+          },
+          {
+            "gen": "J300",
+            "years": "2021-н.в."
+          }
+        ]
+      },
+      {
+        "name": "Yaris",
+        "generations": [
+          {
+            "gen": "XP10",
+            "years": "1999-2005"
+          },
+          {
+            "gen": "XP90",
+            "years": "2005-2011"
+          },
+          {
+            "gen": "XP130",
+            "years": "2011-2020"
+          },
+          {
+            "gen": "XP210",
+            "years": "2020-н.в."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Honda",
+    "models": [
+      {
+        "name": "Civic",
+        "generations": [
+          {
+            "gen": "Civic 1",
+            "years": "1972-1979"
+          },
+          {
+            "gen": "Civic 2",
+            "years": "1979-1983"
+          },
+          {
+            "gen": "Civic 3",
+            "years": "1983-1987"
+          },
+          {
+            "gen": "Civic 4",
+            "years": "1987-1991"
+          },
+          {
+            "gen": "Civic 5",
+            "years": "1991-1995"
+          },
+          {
+            "gen": "Civic 6",
+            "years": "1995-2000"
+          },
+          {
+            "gen": "Civic 7",
+            "years": "2000-2005"
+          },
+          {
+            "gen": "Civic 8",
+            "years": "2005-2011"
+          },
+          {
+            "gen": "Civic 9",
+            "years": "2011-2016"
+          },
+          {
+            "gen": "Civic 10",
+            "years": "2016-2021"
+          },
+          {
+            "gen": "Civic 11",
+            "years": "2021-н.в."
+          }
+        ]
+      },
+      {
+        "name": "Accord",
+        "generations": [
+          {
+            "gen": "Accord 1",
+            "years": "1976-1981"
+          },
+          {
+            "gen": "Accord 2",
+            "years": "1981-1985"
+          },
+          {
+            "gen": "Accord 3",
+            "years": "1985-1989"
+          },
+          {
+            "gen": "Accord 4",
+            "years": "1989-1993"
+          },
+          {
+            "gen": "Accord 5",
+            "years": "1993-1997"
+          },
+          {
+            "gen": "Accord 6",
+            "years": "1997-2002"
+          },
+          {
+            "gen": "Accord 7",
+            "years": "2002-2008"
+          },
+          {
+            "gen": "Accord 8",
+            "years": "2008-2013"
+          },
+          {
+            "gen": "Accord 9",
+            "years": "2013-2017"
+          },
+          {
+            "gen": "Accord 10",
+            "years": "2017-н.в."
+          }
+        ]
+      },
+      {
+        "name": "CR-V",
+        "generations": [
+          {
+            "gen": "CR-V 1",
+            "years": "1995-2001"
+          },
+          {
+            "gen": "CR-V 2",
+            "years": "2002-2006"
+          },
+          {
+            "gen": "CR-V 3",
+            "years": "2007-2011"
+          },
+          {
+            "gen": "CR-V 4",
+            "years": "2012-2016"
+          },
+          {
+            "gen": "CR-V 5",
+            "years": "2017-н.в."
+          }
+        ]
+      },
+      {
+        "name": "Jazz",
+        "generations": [
+          {
+            "gen": "Jazz 1",
+            "years": "2001-2007"
+          },
+          {
+            "gen": "Jazz 2",
+            "years": "2007-2013"
+          },
+          {
+            "gen": "Jazz 3",
+            "years": "2013-2020"
+          },
+          {
+            "gen": "Jazz 4",
+            "years": "2020-н.в."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Nissan",
+    "models": [
+      {
+        "name": "Qashqai",
+        "generations": [
+          {
+            "gen": "J10",
+            "years": "2006-2013"
+          },
+          {
+            "gen": "J11",
+            "years": "2013-2021"
+          },
+          {
+            "gen": "J12",
+            "years": "2021-н.в."
+          }
+        ]
+      },
+      {
+        "name": "X-Trail",
+        "generations": [
+          {
+            "gen": "T30",
+            "years": "2000-2007"
+          },
+          {
+            "gen": "T31",
+            "years": "2007-2014"
+          },
+          {
+            "gen": "T32",
+            "years": "2014-2022"
+          },
+          {
+            "gen": "T33",
+            "years": "2022-н.в."
+          }
+        ]
+      },
+      {
+        "name": "Micra",
+        "generations": [
+          {
+            "gen": "K11",
+            "years": "1992-2002"
+          },
+          {
+            "gen": "K12",
+            "years": "2002-2010"
+          },
+          {
+            "gen": "K13",
+            "years": "2010-2017"
+          },
+          {
+            "gen": "K14",
+            "years": "2017-н.в."
+          }
+        ]
+      },
+      {
+        "name": "Juke",
+        "generations": [
+          {
+            "gen": "F15",
+            "years": "2010-2019"
+          },
+          {
+            "gen": "F16",
+            "years": "2019-н.в."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Mazda",
+    "models": [
+      {
+        "name": "Mazda 3",
+        "generations": [
+          {
+            "gen": "BK",
+            "years": "2003-2009"
+          },
+          {
+            "gen": "BL",
+            "years": "2009-2013"
+          },
+          {
+            "gen": "BM",
+            "years": "2013-2019"
+          },
+          {
+            "gen": "BP",
+            "years": "2019-н.в."
+          }
+        ]
+      },
+      {
+        "name": "Mazda 6",
+        "generations": [
+          {
+            "gen": "GG",
+            "years": "2002-2007"
+          },
+          {
+            "gen": "GH",
+            "years": "2007-2012"
+          },
+          {
+            "gen": "GJ",
+            "years": "2012-н.в."
+          }
+        ]
+      },
+      {
+        "name": "CX-5",
+        "generations": [
+          {
+            "gen": "KE",
+            "years": "2012-2017"
+          },
+          {
+            "gen": "KF",
+            "years": "2017-н.в."
+          }
+        ]
+      },
+      {
+        "name": "MX-5",
+        "generations": [
+          {
+            "gen": "NA",
+            "years": "1989-1997"
+          },
+          {
+            "gen": "NB",
+            "years": "1998-2005"
+          },
+          {
+            "gen": "NC",
+            "years": "2005-2015"
+          },
+          {
+            "gen": "ND",
+            "years": "2015-н.в."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Mitsubishi",
+    "models": [
+      {
+        "name": "Lancer",
+        "generations": [
+          {
+            "gen": "Lancer 1",
+            "years": "1973-1979"
+          },
+          {
+            "gen": "Lancer 2",
+            "years": "1979-1987"
+          },
+          {
+            "gen": "Lancer 3",
+            "years": "1982-1988"
+          },
+          {
+            "gen": "Lancer 4",
+            "years": "1988-1991"
+          },
+          {
+            "gen": "Lancer 5",
+            "years": "1991-1995"
+          },
+          {
+            "gen": "Lancer 6",
+            "years": "1995-2000"
+          },
+          {
+            "gen": "Lancer 7",
+            "years": "2000-2007"
+          },
+          {
+            "gen": "Lancer 8",
+            "years": "2007-2017"
+          }
+        ]
+      },
+      {
+        "name": "Outlander",
+        "generations": [
+          {
+            "gen": "Outlander 1",
+            "years": "2001-2006"
+          },
+          {
+            "gen": "Outlander 2",
+            "years": "2006-2012"
+          },
+          {
+            "gen": "Outlander 3",
+            "years": "2012-2021"
+          },
+          {
+            "gen": "Outlander 4",
+            "years": "2021-н.в."
+          }
+        ]
+      },
+      {
+        "name": "Pajero",
+        "generations": [
+          {
+            "gen": "Pajero 1",
+            "years": "1982-1991"
+          },
+          {
+            "gen": "Pajero 2",
+            "years": "1991-1999"
+          },
+          {
+            "gen": "Pajero 3",
+            "years": "1999-2006"
+          },
+          {
+            "gen": "Pajero 4",
+            "years": "2006-2021"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Subaru",
+    "models": [
+      {
+        "name": "Impreza",
+        "generations": [
+          {
+            "gen": "GC",
+            "years": "1992-2000"
+          },
+          {
+            "gen": "GD",
+            "years": "2000-2007"
+          },
+          {
+            "gen": "GH",
+            "years": "2007-2011"
+          },
+          {
+            "gen": "GJ",
+            "years": "2011-2016"
+          },
+          {
+            "gen": "GK",
+            "years": "2016-н.в."
+          }
+        ]
+      },
+      {
+        "name": "Forester",
+        "generations": [
+          {
+            "gen": "SF",
+            "years": "1997-2002"
+          },
+          {
+            "gen": "SG",
+            "years": "2002-2008"
+          },
+          {
+            "gen": "SH",
+            "years": "2008-2013"
+          },
+          {
+            "gen": "SJ",
+            "years": "2013-2018"
+          },
+          {
+            "gen": "SK",
+            "years": "2018-н.в."
+          }
+        ]
+      },
+      {
+        "name": "Outback",
+        "generations": [
+          {
+            "gen": "BG",
+            "years": "1994-1998"
+          },
+          {
+            "gen": "BH",
+            "years": "1998-2003"
+          },
+          {
+            "gen": "BP",
+            "years": "2003-2009"
+          },
+          {
+            "gen": "BR",
+            "years": "2009-2014"
+          },
+          {
+            "gen": "BS",
+            "years": "2014-н.в."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Lexus",
+    "models": [
+      {
+        "name": "RX",
+        "generations": [
+          {
+            "gen": "XU10",
+            "years": "1998-2003"
+          },
+          {
+            "gen": "XU30",
+            "years": "2003-2008"
+          },
+          {
+            "gen": "AL10",
+            "years": "2008-2015"
+          },
+          {
+            "gen": "AL20",
+            "years": "2015-2022"
+          },
+          {
+            "gen": "AL30",
+            "years": "2022-н.в."
+          }
+        ]
+      },
+      {
+        "name": "IS",
+        "generations": [
+          {
+            "gen": "XE10",
+            "years": "1998-2005"
+          },
+          {
+            "gen": "XE20",
+            "years": "2005-2013"
+          },
+          {
+            "gen": "XE30",
+            "years": "2013-н.в."
+          }
+        ]
+      },
+      {
+        "name": "NX",
+        "generations": [
+          {
+            "gen": "AZ10",
+            "years": "2014-2021"
+          },
+          {
+            "gen": "AZ20",
+            "years": "2021-н.в."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Suzuki",
+    "models": [
+      {
+        "name": "Swift",
+        "generations": [
+          {
+            "gen": "Swift 1",
+            "years": "1983-1988"
+          },
+          {
+            "gen": "Swift 2",
+            "years": "1988-2004"
+          },
+          {
+            "gen": "Swift 3",
+            "years": "2004-2010"
+          },
+          {
+            "gen": "Swift 4",
+            "years": "2010-2017"
+          },
+          {
+            "gen": "Swift 5",
+            "years": "2017-н.в."
+          }
+        ]
+      },
+      {
+        "name": "Vitara",
+        "generations": [
+          {
+            "gen": "Vitara 1",
+            "years": "1988-1998"
+          },
+          {
+            "gen": "Vitara 2",
+            "years": "1998-2005"
+          },
+          {
+            "gen": "Vitara 3",
+            "years": "2005-2015"
+          },
+          {
+            "gen": "Vitara 4",
+            "years": "2015-н.в."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Hyundai",
+    "models": [
+      {
+        "name": "Tucson",
+        "generations": [
+          {
+            "gen": "JM",
+            "years": "2004-2009"
+          },
+          {
+            "gen": "LM",
+            "years": "2009-2015"
+          },
+          {
+            "gen": "TL",
+            "years": "2015-2020"
+          },
+          {
+            "gen": "NX4",
+            "years": "2020-н.в."
+          }
+        ]
+      },
+      {
+        "name": "Santa Fe",
+        "generations": [
+          {
+            "gen": "SM",
+            "years": "2000-2006"
+          },
+          {
+            "gen": "CM",
+            "years": "2006-2012"
+          },
+          {
+            "gen": "DM",
+            "years": "2012-2018"
+          },
+          {
+            "gen": "TM",
+            "years": "2018-н.в."
+          }
+        ]
+      },
+      {
+        "name": "Sonata",
+        "generations": [
+          {
+            "gen": "Sonata 1",
+            "years": "1985-1988"
+          },
+          {
+            "gen": "Sonata 2",
+            "years": "1988-1993"
+          },
+          {
+            "gen": "Sonata 3",
+            "years": "1993-1998"
+          },
+          {
+            "gen": "Sonata 4",
+            "years": "1998-2004"
+          },
+          {
+            "gen": "Sonata 5",
+            "years": "2004-2010"
+          },
+          {
+            "gen": "Sonata 6",
+            "years": "2010-2014"
+          },
+          {
+            "gen": "Sonata 7",
+            "years": "2014-2019"
+          },
+          {
+            "gen": "Sonata 8",
+            "years": "2019-н.в."
+          }
+        ]
+      },
+      {
+        "name": "i30",
+        "generations": [
+          {
+            "gen": "FD",
+            "years": "2007-2011"
+          },
+          {
+            "gen": "GD",
+            "years": "2011-2016"
+          },
+          {
+            "gen": "PD",
+            "years": "2016-н.в."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Kia",
+    "models": [
+      {
+        "name": "Sportage",
+        "generations": [
+          {
+            "gen": "Sportage 1",
+            "years": "1993-2004"
+          },
+          {
+            "gen": "Sportage 2",
+            "years": "2004-2010"
+          },
+          {
+            "gen": "Sportage 3",
+            "years": "2010-2015"
+          },
+          {
+            "gen": "Sportage 4",
+            "years": "2015-2021"
+          },
+          {
+            "gen": "Sportage 5",
+            "years": "2021-н.в."
+          }
+        ]
+      },
+      {
+        "name": "Sorento",
+        "generations": [
+          {
+            "gen": "Sorento 1",
+            "years": "2002-2009"
+          },
+          {
+            "gen": "Sorento 2",
+            "years": "2009-2014"
+          },
+          {
+            "gen": "Sorento 3",
+            "years": "2014-2020"
+          },
+          {
+            "gen": "Sorento 4",
+            "years": "2020-н.в."
+          }
+        ]
+      },
+      {
+        "name": "Rio",
+        "generations": [
+          {
+            "gen": "Rio 1",
+            "years": "1999-2005"
+          },
+          {
+            "gen": "Rio 2",
+            "years": "2005-2011"
+          },
+          {
+            "gen": "Rio 3",
+            "years": "2011-2017"
+          },
+          {
+            "gen": "Rio 4",
+            "years": "2017-н.в."
+          }
+        ]
+      },
+      {
+        "name": "Ceed",
+        "generations": [
+          {
+            "gen": "ED",
+            "years": "2006-2012"
+          },
+          {
+            "gen": "JD",
+            "years": "2012-2018"
+          },
+          {
+            "gen": "CD",
+            "years": "2018-н.в."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Renault",
+    "models": [
+      {
+        "name": "Clio",
+        "generations": [
+          {
+            "gen": "Clio 1",
+            "years": "1990-1998"
+          },
+          {
+            "gen": "Clio 2",
+            "years": "1998-2005"
+          },
+          {
+            "gen": "Clio 3",
+            "years": "2005-2012"
+          },
+          {
+            "gen": "Clio 4",
+            "years": "2012-2019"
+          },
+          {
+            "gen": "Clio 5",
+            "years": "2019-н.в."
+          }
+        ]
+      },
+      {
+        "name": "Megane",
+        "generations": [
+          {
+            "gen": "Megane 1",
+            "years": "1995-2002"
+          },
+          {
+            "gen": "Megane 2",
+            "years": "2002-2008"
+          },
+          {
+            "gen": "Megane 3",
+            "years": "2008-2016"
+          },
+          {
+            "gen": "Megane 4",
+            "years": "2016-н.в."
+          }
+        ]
+      },
+      {
+        "name": "Duster",
+        "generations": [
+          {
+            "gen": "Duster 1",
+            "years": "2010-2017"
+          },
+          {
+            "gen": "Duster 2",
+            "years": "2017-н.в."
+          }
+        ]
+      },
+      {
+        "name": "Captur",
+        "generations": [
+          {
+            "gen": "Captur 1",
+            "years": "2013-2019"
+          },
+          {
+            "gen": "Captur 2",
+            "years": "2019-н.в."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Peugeot",
+    "models": [
+      {
+        "name": "208",
+        "generations": [
+          {
+            "gen": "208 1",
+            "years": "2012-2019"
+          },
+          {
+            "gen": "208 2",
+            "years": "2019-н.в."
+          }
+        ]
+      },
+      {
+        "name": "308",
+        "generations": [
+          {
+            "gen": "308 1",
+            "years": "2007-2013"
+          },
+          {
+            "gen": "308 2",
+            "years": "2013-2021"
+          },
+          {
+            "gen": "308 3",
+            "years": "2021-н.в."
+          }
+        ]
+      },
+      {
+        "name": "508",
+        "generations": [
+          {
+            "gen": "508 1",
+            "years": "2010-2018"
+          },
+          {
+            "gen": "508 2",
+            "years": "2018-н.в."
+          }
+        ]
+      },
+      {
+        "name": "3008",
+        "generations": [
+          {
+            "gen": "3008 1",
+            "years": "2008-2016"
+          },
+          {
+            "gen": "3008 2",
+            "years": "2016-н.в."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Citroen",
+    "models": [
+      {
+        "name": "C3",
+        "generations": [
+          {
+            "gen": "C3 1",
+            "years": "2002-2009"
+          },
+          {
+            "gen": "C3 2",
+            "years": "2009-2016"
+          },
+          {
+            "gen": "C3 3",
+            "years": "2016-н.в."
+          }
+        ]
+      },
+      {
+        "name": "C4",
+        "generations": [
+          {
+            "gen": "C4 1",
+            "years": "2004-2010"
+          },
+          {
+            "gen": "C4 2",
+            "years": "2010-2018"
+          },
+          {
+            "gen": "C4 3",
+            "years": "2020-н.в."
+          }
+        ]
+      },
+      {
+        "name": "Berlingo",
+        "generations": [
+          {
+            "gen": "Berlingo 1",
+            "years": "1996-2008"
+          },
+          {
+            "gen": "Berlingo 2",
+            "years": "2008-2018"
+          },
+          {
+            "gen": "Berlingo 3",
+            "years": "2018-н.в."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Ford",
+    "models": [
+      {
+        "name": "Focus",
+        "generations": [
+          {
+            "gen": "Focus 1",
+            "years": "1998-2004"
+          },
+          {
+            "gen": "Focus 2",
+            "years": "2004-2010"
+          },
+          {
+            "gen": "Focus 3",
+            "years": "2010-2018"
+          },
+          {
+            "gen": "Focus 4",
+            "years": "2018-н.в."
+          }
+        ]
+      },
+      {
+        "name": "Fiesta",
+        "generations": [
+          {
+            "gen": "Fiesta 1",
+            "years": "1976-1983"
+          },
+          {
+            "gen": "Fiesta 2",
+            "years": "1983-1989"
+          },
+          {
+            "gen": "Fiesta 3",
+            "years": "1989-1997"
+          },
+          {
+            "gen": "Fiesta 4",
+            "years": "1995-2002"
+          },
+          {
+            "gen": "Fiesta 5",
+            "years": "2002-2008"
+          },
+          {
+            "gen": "Fiesta 6",
+            "years": "2008-2017"
+          },
+          {
+            "gen": "Fiesta 7",
+            "years": "2017-н.в."
+          }
+        ]
+      },
+      {
+        "name": "Mustang",
+        "generations": [
+          {
+            "gen": "Mustang 1",
+            "years": "1964-1973"
+          },
+          {
+            "gen": "Mustang 2",
+            "years": "1974-1978"
+          },
+          {
+            "gen": "Mustang 3",
+            "years": "1979-1993"
+          },
+          {
+            "gen": "Mustang 4",
+            "years": "1994-2004"
+          },
+          {
+            "gen": "Mustang 5",
+            "years": "2005-2014"
+          },
+          {
+            "gen": "Mustang 6",
+            "years": "2015-н.в."
+          }
+        ]
+      },
+      {
+        "name": "Kuga",
+        "generations": [
+          {
+            "gen": "Kuga 1",
+            "years": "2008-2012"
+          },
+          {
+            "gen": "Kuga 2",
+            "years": "2012-2019"
+          },
+          {
+            "gen": "Kuga 3",
+            "years": "2019-н.в."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Chevrolet",
+    "models": [
+      {
+        "name": "Cruze",
+        "generations": [
+          {
+            "gen": "Cruze 1",
+            "years": "2008-2016"
+          },
+          {
+            "gen": "Cruze 2",
+            "years": "2016-н.в."
+          }
+        ]
+      },
+      {
+        "name": "Camaro",
+        "generations": [
+          {
+            "gen": "Camaro 1",
+            "years": "1966-1969"
+          },
+          {
+            "gen": "Camaro 2",
+            "years": "1970-1981"
+          },
+          {
+            "gen": "Camaro 3",
+            "years": "1982-1992"
+          },
+          {
+            "gen": "Camaro 4",
+            "years": "1993-2002"
+          },
+          {
+            "gen": "Camaro 5",
+            "years": "2010-2015"
+          },
+          {
+            "gen": "Camaro 6",
+            "years": "2016-н.в."
+          }
+        ]
+      },
+      {
+        "name": "Corvette",
+        "generations": [
+          {
+            "gen": "C1",
+            "years": "1953-1962"
+          },
+          {
+            "gen": "C2",
+            "years": "1963-1967"
+          },
+          {
+            "gen": "C3",
+            "years": "1968-1982"
+          },
+          {
+            "gen": "C4",
+            "years": "1984-1996"
+          },
+          {
+            "gen": "C5",
+            "years": "1997-2004",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/2021_Chevrolet_Corvette_C8.jpg/500px-2021_Chevrolet_Corvette_C8.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "C6",
+            "years": "2005-2013",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/2021_Chevrolet_Corvette_C8.jpg/500px-2021_Chevrolet_Corvette_C8.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "C7",
+            "years": "2014-2019"
+          },
+          {
+            "gen": "C8",
+            "years": "2020-н.в."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Jeep",
+    "models": [
+      {
+        "name": "Wrangler",
+        "generations": [
+          {
+            "gen": "YJ",
+            "years": "1987-1995",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/94_JEEP_Wrangler_%288235592322%29.jpg/500px-94_JEEP_Wrangler_%288235592322%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "TJ",
+            "years": "1997-2006",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/TJ-Jeep-Wrangler-X.jpg/500px-TJ-Jeep-Wrangler-X.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "JK",
+            "years": "2007-2018",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Jeep_JK_Wrangler_Sahara_2-Door_Convertible.jpg/500px-Jeep_JK_Wrangler_Sahara_2-Door_Convertible.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "JL",
+            "years": "2018-н.в."
+          }
+        ]
+      },
+      {
+        "name": "Grand Cherokee",
+        "generations": [
+          {
+            "gen": "ZJ",
+            "years": "1993-1998"
+          },
+          {
+            "gen": "WJ",
+            "years": "1999-2004"
+          },
+          {
+            "gen": "WK",
+            "years": "2005-2010"
+          },
+          {
+            "gen": "WK2",
+            "years": "2011-2021"
+          },
+          {
+            "gen": "WL",
+            "years": "2021-н.в."
+          }
+        ]
+      },
+      {
+        "name": "Renegade",
+        "generations": [
+          {
+            "gen": "BU",
+            "years": "2014-н.в."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Dodge",
+    "models": [
+      {
+        "name": "Challenger",
+        "generations": [
+          {
+            "gen": "Challenger 1",
+            "years": "1970-1974"
+          },
+          {
+            "gen": "Challenger 2",
+            "years": "1978-1983"
+          },
+          {
+            "gen": "Challenger 3",
+            "years": "2008-н.в."
+          }
+        ]
+      },
+      {
+        "name": "Charger",
+        "generations": [
+          {
+            "gen": "Charger 1",
+            "years": "1966-1978"
+          },
+          {
+            "gen": "Charger 2",
+            "years": "1983-1987"
+          },
+          {
+            "gen": "Charger 3",
+            "years": "2006-н.в."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Tesla",
+    "models": [
+      {
+        "name": "Model S",
+        "generations": [
+          {
+            "gen": "Model S",
+            "years": "2012-н.в.",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Tesla_Model_S_%28Facelift_ab_04-2016%29_%28cropped%29.jpg/500px-Tesla_Model_S_%28Facelift_ab_04-2016%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          }
+        ]
+      },
+      {
+        "name": "Model 3",
+        "generations": [
+          {
+            "gen": "Model 3",
+            "years": "2017-н.в.",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Tesla_Model_3_%282023%29_Autofr%C3%BChling_Ulm_IMG_9282.jpg/500px-Tesla_Model_3_%282023%29_Autofr%C3%BChling_Ulm_IMG_9282.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          }
+        ]
+      },
+      {
+        "name": "Model X",
+        "generations": [
+          {
+            "gen": "Model X",
+            "years": "2015-н.в.",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/2017_Tesla_Model_X_100D_Front.jpg/500px-2017_Tesla_Model_X_100D_Front.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          }
+        ]
+      },
+      {
+        "name": "Model Y",
+        "generations": [
+          {
+            "gen": "Model Y",
+            "years": "2020-н.в.",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Tesla_Model_Y_Premium_%28Facelift%29_%E2%80%93_f_05052026.jpg/500px-Tesla_Model_Y_Premium_%28Facelift%29_%E2%80%93_f_05052026.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Skoda",
+    "models": [
+      {
+        "name": "Octavia",
+        "generations": [
+          {
+            "gen": "Octavia 1",
+            "years": "1996-2004"
+          },
+          {
+            "gen": "Octavia 2",
+            "years": "2004-2013"
+          },
+          {
+            "gen": "Octavia 3",
+            "years": "2013-2020"
+          },
+          {
+            "gen": "Octavia 4",
+            "years": "2020-н.в."
+          }
+        ]
+      },
+      {
+        "name": "Fabia",
+        "generations": [
+          {
+            "gen": "Fabia 1",
+            "years": "1999-2007"
+          },
+          {
+            "gen": "Fabia 2",
+            "years": "2007-2014"
+          },
+          {
+            "gen": "Fabia 3",
+            "years": "2014-2021"
+          },
+          {
+            "gen": "Fabia 4",
+            "years": "2021-н.в."
+          }
+        ]
+      },
+      {
+        "name": "Superb",
+        "generations": [
+          {
+            "gen": "Superb 1",
+            "years": "2001-2008"
+          },
+          {
+            "gen": "Superb 2",
+            "years": "2008-2015"
+          },
+          {
+            "gen": "Superb 3",
+            "years": "2015-н.в."
+          }
+        ]
+      },
+      {
+        "name": "Kodiaq",
+        "generations": [
+          {
+            "gen": "Kodiaq 1",
+            "years": "2016-н.в."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Volvo",
+    "models": [
+      {
+        "name": "XC90",
+        "generations": [
+          {
+            "gen": "XC90 1",
+            "years": "2002-2014"
+          },
+          {
+            "gen": "XC90 2",
+            "years": "2014-н.в."
+          }
+        ]
+      },
+      {
+        "name": "XC60",
+        "generations": [
+          {
+            "gen": "XC60 1",
+            "years": "2008-2017"
+          },
+          {
+            "gen": "XC60 2",
+            "years": "2017-н.в."
+          }
+        ]
+      },
+      {
+        "name": "S60",
+        "generations": [
+          {
+            "gen": "S60 1",
+            "years": "2000-2009"
+          },
+          {
+            "gen": "S60 2",
+            "years": "2010-2018"
+          },
+          {
+            "gen": "S60 3",
+            "years": "2018-н.в."
+          }
+        ]
+      },
+      {
+        "name": "S90",
+        "generations": [
+          {
+            "gen": "S90 1",
+            "years": "1997-1998"
+          },
+          {
+            "gen": "S90 2",
+            "years": "2016-н.в."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Land Rover",
+    "models": [
+      {
+        "name": "Range Rover",
+        "generations": [
+          {
+            "gen": "Range Rover 1",
+            "years": "1970-1996"
+          },
+          {
+            "gen": "Range Rover 2",
+            "years": "1994-2002"
+          },
+          {
+            "gen": "Range Rover 3",
+            "years": "2002-2012"
+          },
+          {
+            "gen": "Range Rover 4",
+            "years": "2012-2022"
+          },
+          {
+            "gen": "Range Rover 5",
+            "years": "2022-н.в."
+          }
+        ]
+      },
+      {
+        "name": "Range Rover Sport",
+        "generations": [
+          {
+            "gen": "Sport 1",
+            "years": "2005-2013"
+          },
+          {
+            "gen": "Sport 2",
+            "years": "2013-2022"
+          },
+          {
+            "gen": "Sport 3",
+            "years": "2022-н.в."
+          }
+        ]
+      },
+      {
+        "name": "Discovery",
+        "generations": [
+          {
+            "gen": "Discovery 1",
+            "years": "1989-1998"
+          },
+          {
+            "gen": "Discovery 2",
+            "years": "1998-2004"
+          },
+          {
+            "gen": "Discovery 3",
+            "years": "2004-2009",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/2018_Land_Rover_Discovery_Luxury_HSE_TD6_3.0_Front.jpg/500px-2018_Land_Rover_Discovery_Luxury_HSE_TD6_3.0_Front.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "Discovery 4",
+            "years": "2009-2016",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/2018_Land_Rover_Discovery_Luxury_HSE_TD6_3.0_Front.jpg/500px-2018_Land_Rover_Discovery_Luxury_HSE_TD6_3.0_Front.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          },
+          {
+            "gen": "Discovery 5",
+            "years": "2016-н.в."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Jaguar",
+    "models": [
+      {
+        "name": "XF",
+        "generations": [
+          {
+            "gen": "XF 1",
+            "years": "2007-2015"
+          },
+          {
+            "gen": "XF 2",
+            "years": "2015-н.в."
+          }
+        ]
+      },
+      {
+        "name": "F-Pace",
+        "generations": [
+          {
+            "gen": "F-Pace",
+            "years": "2016-н.в.",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Jaguar_F-Pace_AWD_20d_registered_March_2019_1999cc_01_%28cropped%29.jpg/500px-Jaguar_F-Pace_AWD_20d_registered_March_2019_1999cc_01_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          }
+        ]
+      },
+      {
+        "name": "XJ",
+        "generations": [
+          {
+            "gen": "XJ 1",
+            "years": "1968-1992"
+          },
+          {
+            "gen": "XJ 2",
+            "years": "1986-2003"
+          },
+          {
+            "gen": "XJ 3",
+            "years": "2003-2009"
+          },
+          {
+            "gen": "XJ 4",
+            "years": "2009-н.в."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Mini",
+    "models": [
+      {
+        "name": "Cooper",
+        "generations": [
+          {
+            "gen": "R50",
+            "years": "2001-2006"
+          },
+          {
+            "gen": "R56",
+            "years": "2006-2013"
+          },
+          {
+            "gen": "F56",
+            "years": "2013-н.в."
+          }
+        ]
+      },
+      {
+        "name": "Countryman",
+        "generations": [
+          {
+            "gen": "R60",
+            "years": "2010-2016"
+          },
+          {
+            "gen": "F60",
+            "years": "2016-н.в."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Fiat",
+    "models": [
+      {
+        "name": "500",
+        "generations": [
+          {
+            "gen": "500 1",
+            "years": "1957-1975"
+          },
+          {
+            "gen": "500 2",
+            "years": "2007-н.в."
+          }
+        ]
+      },
+      {
+        "name": "Panda",
+        "generations": [
+          {
+            "gen": "Panda 1",
+            "years": "1980-2003"
+          },
+          {
+            "gen": "Panda 2",
+            "years": "2003-2011"
+          },
+          {
+            "gen": "Panda 3",
+            "years": "2011-н.в."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Alfa Romeo",
+    "models": [
+      {
+        "name": "Giulia",
+        "generations": [
+          {
+            "gen": "Giulia 1",
+            "years": "1962-1978"
+          },
+          {
+            "gen": "Giulia 2",
+            "years": "2016-н.в."
+          }
+        ]
+      },
+      {
+        "name": "Stelvio",
+        "generations": [
+          {
+            "gen": "Stelvio",
+            "years": "2016-н.в.",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Alfa_Romeo_Stelvio_Suv_Free_Car_Picture_-_Give_Credit_Via_Link.%28cropped%29.jpg/500px-Alfa_Romeo_Stelvio_Suv_Free_Car_Picture_-_Give_Credit_Via_Link.%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          }
+        ]
+      },
+      {
+        "name": "Giulietta",
+        "generations": [
+          {
+            "gen": "Giulietta 1",
+            "years": "1954-1965"
+          },
+          {
+            "gen": "Giulietta 2",
+            "years": "2010-2020"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Dacia",
+    "models": [
+      {
+        "name": "Duster",
+        "generations": [
+          {
+            "gen": "Duster 1",
+            "years": "2010-2017"
+          },
+          {
+            "gen": "Duster 2",
+            "years": "2017-н.в."
+          }
+        ]
+      },
+      {
+        "name": "Logan",
+        "generations": [
+          {
+            "gen": "Logan 1",
+            "years": "2004-2012"
+          },
+          {
+            "gen": "Logan 2",
+            "years": "2012-н.в."
+          }
+        ]
+      },
+      {
+        "name": "Sandero",
+        "generations": [
+          {
+            "gen": "Sandero 1",
+            "years": "2008-2012"
+          },
+          {
+            "gen": "Sandero 2",
+            "years": "2012-2020"
+          },
+          {
+            "gen": "Sandero 3",
+            "years": "2020-н.в."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Seat",
+    "models": [
+      {
+        "name": "Ibiza",
+        "generations": [
+          {
+            "gen": "Ibiza 1",
+            "years": "1984-1993"
+          },
+          {
+            "gen": "Ibiza 2",
+            "years": "1993-2002"
+          },
+          {
+            "gen": "Ibiza 3",
+            "years": "2002-2008"
+          },
+          {
+            "gen": "Ibiza 4",
+            "years": "2008-2017"
+          },
+          {
+            "gen": "Ibiza 5",
+            "years": "2017-н.в."
+          }
+        ]
+      },
+      {
+        "name": "Leon",
+        "generations": [
+          {
+            "gen": "Leon 1",
+            "years": "1999-2005"
+          },
+          {
+            "gen": "Leon 2",
+            "years": "2005-2012"
+          },
+          {
+            "gen": "Leon 3",
+            "years": "2012-2020"
+          },
+          {
+            "gen": "Leon 4",
+            "years": "2020-н.в."
+          }
+        ]
+      },
+      {
+        "name": "Ateca",
+        "generations": [
+          {
+            "gen": "Ateca",
+            "years": "2016-н.в.",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/2017_SEAT_Ateca_Xcellence_1.4_Front.jpg/500px-2017_SEAT_Ateca_Xcellence_1.4_Front.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Geely",
+    "models": [
+      {
+        "name": "Atlas",
+        "generations": [
+          {
+            "gen": "Atlas",
+            "years": "2016-н.в.",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/2023_Geely_Boyue_L_%282%29%2C_front_8.3.23.jpg/500px-2023_Geely_Boyue_L_%282%29%2C_front_8.3.23.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          }
+        ]
+      },
+      {
+        "name": "Coolray",
+        "generations": [
+          {
+            "gen": "Coolray",
+            "years": "2018-н.в.",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/2018_Geely_Binyue.jpg/500px-2018_Geely_Binyue.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          }
+        ]
+      },
+      {
+        "name": "Tugella",
+        "generations": [
+          {
+            "gen": "Tugella",
+            "years": "2019-н.в.",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/2019_Geely_Xingyue_%28front%29.jpg/500px-2019_Geely_Xingyue_%28front%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Chery",
+    "models": [
+      {
+        "name": "Tiggo 4",
+        "generations": [
+          {
+            "gen": "Tiggo 4",
+            "years": "2017-н.в.",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/2018_Chery_Tiggo_5x%2C_front_8.6.18.jpg/500px-2018_Chery_Tiggo_5x%2C_front_8.6.18.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          }
+        ]
+      },
+      {
+        "name": "Tiggo 7",
+        "generations": [
+          {
+            "gen": "Tiggo 7",
+            "years": "2016-н.в.",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Chery_Tiggo_7_II_014_%28cropped%29.jpg/500px-Chery_Tiggo_7_II_014_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          }
+        ]
+      },
+      {
+        "name": "Tiggo 8",
+        "generations": [
+          {
+            "gen": "Tiggo 8",
+            "years": "2018-н.в."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Haval",
+    "models": [
+      {
+        "name": "H6",
+        "generations": [
+          {
+            "gen": "H6 1",
+            "years": "2011-2017"
+          },
+          {
+            "gen": "H6 2",
+            "years": "2017-н.в."
+          }
+        ]
+      },
+      {
+        "name": "Jolion",
+        "generations": [
+          {
+            "gen": "Jolion",
+            "years": "2020-н.в."
+          }
+        ]
+      },
+      {
+        "name": "F7",
+        "generations": [
+          {
+            "gen": "F7",
+            "years": "2018-н.в.",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Haval_F7_IMG001.jpg/500px-Haval_F7_IMG001.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Changan",
+    "models": [
+      {
+        "name": "CS35",
+        "generations": [
+          {
+            "gen": "CS35",
+            "years": "2012-н.в.",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/2014_Chang%27an_CS35%2C_front_8.4.18.jpg/500px-2014_Chang%27an_CS35%2C_front_8.4.18.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          }
+        ]
+      },
+      {
+        "name": "CS55",
+        "generations": [
+          {
+            "gen": "CS55",
+            "years": "2017-н.в.",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Changan_CS55_Plus_II_009.jpg/500px-Changan_CS55_Plus_II_009.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          }
+        ]
+      },
+      {
+        "name": "CS75",
+        "generations": [
+          {
+            "gen": "CS75",
+            "years": "2014-н.в.",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Changan_CS75_Plus_IV_005.jpg/500px-Changan_CS75_Plus_IV_005.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "BYD",
+    "models": [
+      {
+        "name": "Song Plus",
+        "generations": [
+          {
+            "gen": "Song Plus",
+            "years": "2020-н.в.",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/2023_BYD_Song_Plus_DM-i_%28front%29.jpg/500px-2023_BYD_Song_Plus_DM-i_%28front%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          }
+        ]
+      },
+      {
+        "name": "Tang",
+        "generations": [
+          {
+            "gen": "Tang",
+            "years": "2018-н.в.",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/BYD_Tang_DM-p_front_quarter_trimmed_2.jpg/500px-BYD_Tang_DM-p_front_quarter_trimmed_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          }
+        ]
+      },
+      {
+        "name": "Han",
+        "generations": [
+          {
+            "gen": "Han",
+            "years": "2020-н.в.",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/2023_BYD_Han_DM-i_%28facelift%29%2C_front_8.17.23.jpg/500px-2023_BYD_Han_DM-i_%28facelift%29%2C_front_8.17.23.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          }
+        ]
+      },
+      {
+        "name": "Seal",
+        "generations": [
+          {
+            "gen": "Seal",
+            "years": "2022-н.в.",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/2022_BYD_Seal.jpg/500px-2022_BYD_Seal.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Exeed",
+    "models": [
+      {
+        "name": "TXL",
+        "generations": [
+          {
+            "gen": "TXL",
+            "years": "2019-н.в.",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/2019_Exeed_TXL_%28front%29.jpg/500px-2019_Exeed_TXL_%28front%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          }
+        ]
+      },
+      {
+        "name": "VX",
+        "generations": [
+          {
+            "gen": "VX",
+            "years": "2021-н.в.",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Exeed_VX_IMG002.jpg/500px-Exeed_VX_IMG002.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          }
+        ]
+      },
+      {
+        "name": "LX",
+        "generations": [
+          {
+            "gen": "LX",
+            "years": "2020-н.в."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Li Auto",
+    "models": [
+      {
+        "name": "L7",
+        "generations": [
+          {
+            "gen": "L7",
+            "years": "2022-н.в."
+          }
+        ]
+      },
+      {
+        "name": "L9",
+        "generations": [
+          {
+            "gen": "L9",
+            "years": "2022-н.в."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "NIO",
+    "models": [
+      {
+        "name": "ES6",
+        "generations": [
+          {
+            "gen": "ES6",
+            "years": "2019-н.в.",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/%28CHN-Guangdong%29_Showcar_Nio_ES6_No-plate_2024-05-25.jpg/500px-%28CHN-Guangdong%29_Showcar_Nio_ES6_No-plate_2024-05-25.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          }
+        ]
+      },
+      {
+        "name": "ES8",
+        "generations": [
+          {
+            "gen": "ES8",
+            "years": "2018-н.в.",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/%28CHN-Jiangsu%29_Showcar_Nio_ES8_No-plate_2025-12-20.jpg/500px-%28CHN-Jiangsu%29_Showcar_Nio_ES8_No-plate_2025-12-20.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "XPeng",
+    "models": [
+      {
+        "name": "P7",
+        "generations": [
+          {
+            "gen": "P7",
+            "years": "2020-н.в.",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/XPeng_P7_II_MY2025_IMG03.jpg/500px-XPeng_P7_II_MY2025_IMG03.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          }
+        ]
+      },
+      {
+        "name": "G3",
+        "generations": [
+          {
+            "gen": "G3",
+            "years": "2018-н.в.",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Xpeng_G3i_001.jpg/500px-Xpeng_G3i_001.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Zeekr",
+    "models": [
+      {
+        "name": "001",
+        "generations": [
+          {
+            "gen": "001",
+            "years": "2021-н.в.",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/2022_Zeekr_001_%28front%29.jpg/500px-2022_Zeekr_001_%28front%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          }
+        ]
+      },
+      {
+        "name": "009",
+        "generations": [
+          {
+            "gen": "009",
+            "years": "2023-н.в.",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Zeekr_009_003.jpg/500px-Zeekr_009_003.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Hongqi",
+    "models": [
+      {
+        "name": "H5",
+        "generations": [
+          {
+            "gen": "H5",
+            "years": "2018-н.в.",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Hongqi_H5_2023.jpg/500px-Hongqi_H5_2023.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          }
+        ]
+      },
+      {
+        "name": "H9",
+        "generations": [
+          {
+            "gen": "H9",
+            "years": "2020-н.в.",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Hongqi_H9_010.jpg/500px-Hongqi_H9_010.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          }
+        ]
+      },
+      {
+        "name": "E-HS9",
+        "generations": [
+          {
+            "gen": "E-HS9",
+            "years": "2020-н.в.",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Hongqi_E-HS9_IMG_0753_%28cropped%29.jpg/500px-Hongqi_E-HS9_IMG_0753_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Infiniti",
+    "models": [
+      {
+        "name": "Q50",
+        "generations": [
+          {
+            "gen": "Q50",
+            "years": "2013-н.в.",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Infiniti_Q50_S_HYBRID_%28V37%29_%E2%80%93_Frontansicht%2C_14._Juni_2014%2C_D%C3%BCsseldorf.jpg/500px-Infiniti_Q50_S_HYBRID_%28V37%29_%E2%80%93_Frontansicht%2C_14._Juni_2014%2C_D%C3%BCsseldorf.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          }
+        ]
+      },
+      {
+        "name": "QX60",
+        "generations": [
+          {
+            "gen": "QX60",
+            "years": "2012-н.в."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Acura",
+    "models": [
+      {
+        "name": "MDX",
+        "generations": [
+          {
+            "gen": "MDX 1",
+            "years": "2001-2006"
+          },
+          {
+            "gen": "MDX 2",
+            "years": "2007-2013"
+          },
+          {
+            "gen": "MDX 3",
+            "years": "2014-н.в."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Cadillac",
+    "models": [
+      {
+        "name": "Escalade",
+        "generations": [
+          {
+            "gen": "Escalade 1",
+            "years": "1999-2000"
+          },
+          {
+            "gen": "Escalade 2",
+            "years": "2002-2006"
+          },
+          {
+            "gen": "Escalade 3",
+            "years": "2007-2014"
+          },
+          {
+            "gen": "Escalade 4",
+            "years": "2015-2020"
+          },
+          {
+            "gen": "Escalade 5",
+            "years": "2021-н.в."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Chrysler",
+    "models": [
+      {
+        "name": "300C",
+        "generations": [
+          {
+            "gen": "300C 1",
+            "years": "2004-2011"
+          },
+          {
+            "gen": "300C 2",
+            "years": "2011-н.в."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Aston Martin",
+    "models": [
+      {
+        "name": "DB11",
+        "generations": [
+          {
+            "gen": "DB11",
+            "years": "2016-н.в.",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/2018_Aston_Martin_DB11_V8_Automatic_4.0_Front.jpg/500px-2018_Aston_Martin_DB11_V8_Automatic_4.0_Front.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          }
+        ]
+      },
+      {
+        "name": "Vantage",
+        "generations": [
+          {
+            "gen": "Vantage 1",
+            "years": "2005-2018"
+          },
+          {
+            "gen": "Vantage 2",
+            "years": "2018-н.в."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Bentley",
+    "models": [
+      {
+        "name": "Continental GT",
+        "generations": [
+          {
+            "gen": "Continental GT 1",
+            "years": "2003-2011"
+          },
+          {
+            "gen": "Continental GT 2",
+            "years": "2011-2018"
+          },
+          {
+            "gen": "Continental GT 3",
+            "years": "2018-н.в."
+          }
+        ]
+      },
+      {
+        "name": "Bentayga",
+        "generations": [
+          {
+            "gen": "Bentayga",
+            "years": "2015-н.в.",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Bentley_Bentayga_V8_%28FL%29_IMG_0005.jpg/500px-Bentley_Bentayga_V8_%28FL%29_IMG_0005.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Ferrari",
+    "models": [
+      {
+        "name": "458 Italia",
+        "generations": [
+          {
+            "gen": "458",
+            "years": "2009-2015",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Ferrari_458_Fort_Worth_June_2016_56_%28Ferrari%29_%28cropped-2%29.jpg/500px-Ferrari_458_Fort_Worth_June_2016_56_%28Ferrari%29_%28cropped-2%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          }
+        ]
+      },
+      {
+        "name": "488 GTB",
+        "generations": [
+          {
+            "gen": "488",
+            "years": "2015-2019",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/2018_Ferrari_488_GTB_Spider_S-A_3.9_Front.jpg/500px-2018_Ferrari_488_GTB_Spider_S-A_3.9_Front.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          }
+        ]
+      },
+      {
+        "name": "F8 Tributo",
+        "generations": [
+          {
+            "gen": "F8",
+            "years": "2019-н.в.",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/2020_Ferrari_F8_Tributo_3.9.jpg/500px-2020_Ferrari_F8_Tributo_3.9.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Lamborghini",
+    "models": [
+      {
+        "name": "Huracan",
+        "generations": [
+          {
+            "gen": "Huracan",
+            "years": "2014-н.в.",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/2017_Lamborghini_Huracan_LP610.jpg/500px-2017_Lamborghini_Huracan_LP610.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          }
+        ]
+      },
+      {
+        "name": "Aventador",
+        "generations": [
+          {
+            "gen": "Aventador",
+            "years": "2011-2022",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Lamborghini_Aventador_S_%2844554%29.jpg/500px-Lamborghini_Aventador_S_%2844554%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          }
+        ]
+      },
+      {
+        "name": "Urus",
+        "generations": [
+          {
+            "gen": "Urus",
+            "years": "2018-н.в.",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Lamborghini_Urus_SE_DSC_8524.jpg/500px-Lamborghini_Urus_SE_DSC_8524.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Maserati",
+    "models": [
+      {
+        "name": "Ghibli",
+        "generations": [
+          {
+            "gen": "Ghibli 1",
+            "years": "1967-1973"
+          },
+          {
+            "gen": "Ghibli 2",
+            "years": "1992-1997"
+          },
+          {
+            "gen": "Ghibli 3",
+            "years": "2013-н.в."
+          }
+        ]
+      },
+      {
+        "name": "Levante",
+        "generations": [
+          {
+            "gen": "Levante",
+            "years": "2016-н.в.",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Maserati_Levante_S_%2801%29.jpg/500px-Maserati_Levante_S_%2801%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "McLaren",
+    "models": [
+      {
+        "name": "570S",
+        "generations": [
+          {
+            "gen": "570S",
+            "years": "2015-2021",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/2017_McLaren_570S%2C_blue%2C_front_left.jpg/500px-2017_McLaren_570S%2C_blue%2C_front_left.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          }
+        ]
+      },
+      {
+        "name": "720S",
+        "generations": [
+          {
+            "gen": "720S",
+            "years": "2017-н.в.",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/2018_McLaren_720S_V8_S-A_4.0.jpg/500px-2018_McLaren_720S_V8_S-A_4.0.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Rolls-Royce",
+    "models": [
+      {
+        "name": "Phantom",
+        "generations": [
+          {
+            "gen": "Phantom 7",
+            "years": "2003-2017"
+          },
+          {
+            "gen": "Phantom 8",
+            "years": "2017-н.в."
+          }
+        ]
+      },
+      {
+        "name": "Ghost",
+        "generations": [
+          {
+            "gen": "Ghost 1",
+            "years": "2009-2020"
+          },
+          {
+            "gen": "Ghost 2",
+            "years": "2020-н.в."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Lada",
+    "models": [
+      {
+        "name": "Vesta",
+        "generations": [
+          {
+            "gen": "Vesta",
+            "years": "2015-н.в."
+          }
+        ]
+      },
+      {
+        "name": "Granta",
+        "generations": [
+          {
+            "gen": "Granta",
+            "years": "2011-н.в."
+          }
+        ]
+      },
+      {
+        "name": "Niva",
+        "generations": [
+          {
+            "gen": "Niva 1",
+            "years": "1977-н.в."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Daewoo",
+    "models": [
+      {
+        "name": "Lanos",
+        "generations": [
+          {
+            "gen": "Lanos",
+            "years": "1997-2017"
+          }
+        ]
+      },
+      {
+        "name": "Matiz",
+        "generations": [
+          {
+            "gen": "Matiz",
+            "years": "1998-2015"
+          }
+        ]
+      }
+    ]
+  }
+]
