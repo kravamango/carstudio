@@ -37,7 +37,17 @@ export const getCars = async (req: Request, res: Response) => {
     try {
         const cars = await prisma.car.findMany({
             where: { status: 'active' },
-            include: { user: true },
+            include: {
+                user: {
+                    select: {
+                        id: true,
+                        email: true,
+                        firstName: true,
+                        lastName: true,
+                        phone: true
+                    }
+                }
+            },
             orderBy: { createdAt: 'desc' }
         });
 
@@ -54,7 +64,17 @@ export const getCar = async (req: Request, res: Response) => {
 
         const car = await prisma.car.findUnique({
             where: { id },
-            include: { user: true }
+            include: {
+                user: {
+                    select: {
+                        id: true,
+                        email: true,
+                        firstName: true,
+                        lastName: true,
+                        phone: true
+                    }
+                }
+            }
         });
 
         if (!car) {

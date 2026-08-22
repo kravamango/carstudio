@@ -13,9 +13,25 @@ export default function CreateCarPage() {
         price: 0,
         fuelType: 'petrol',
         transmission: 'manual',
-        color: ''
+        color: '',
+        photos: [] as string[]
     });
     const navigate = useNavigate();
+
+    const handlePhotoUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
+        const file = e.target.files?.[0];
+        if (!file) return;
+
+        const formData = new FormData();
+        formData.append('photo', file);
+
+        try {
+            const res = await api.post('/upload', formData);
+            setForm({ ...form, photos: [...form.photos, res.data.url] });
+        } catch (error) {
+            alert('Ошибка загрузки фото');
+        }
+    };
 
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
@@ -114,6 +130,22 @@ export default function CreateCarPage() {
                     onChange={(e) => setForm({ ...form, color: e.target.value })}
                     className="border rounded px-4 py-2"
                 />
+                <div>
+                    <label className="block mb-2">Фото</label>
+                    <input
+                        type="file"
+                        accept="image/*"
+                        onChange={handlePhotoUpload}
+                        className="border rounded px-4 py-2"
+                    />
+                    {form.photos.length > 0 && (
+                        <div className="flex gap-2 mt-2">
+                            {form.photos.map((photo, index) => (
+                                <img key={index} src={photo} alt="" className="w-20 h-20 object-cover rounded" />
+                            ))}
+                        </div>
+                    )}
+                </div>
                 <button type="submit" className="bg-blue-500 text-white py-3 rounded hover:bg-blue-600">
                     Создать объявление
                 </button>

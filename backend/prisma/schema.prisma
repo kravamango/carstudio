@@ -36,6 +36,7 @@ model Car {
   fuelType    String
   transmission String
   color       String
+  photos      String[] @default([])
   status      String   @default("active")
   createdAt   DateTime @default(now())
   updatedAt   DateTime @updatedAt

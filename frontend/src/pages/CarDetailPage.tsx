@@ -14,6 +14,7 @@ interface Car {
     fuelType: string;
     transmission: string;
     color: string;
+    photos: string[];
     user: {
         firstName: string;
         lastName: string;
@@ -34,6 +35,15 @@ export default function CarDetailPage() {
     return (
         <div className="max-w-4xl mx-auto mt-10 p-6">
             <h1 className="text-4xl font-bold mb-4">{car.title}</h1>
+
+            {car.photos && car.photos.length > 0 && (
+                <div className="grid grid-cols-3 gap-4 mb-6">
+                    {car.photos.map((photo, index) => (
+                        <img key={index} src={photo} alt="" className="w-full h-48 object-cover rounded" />
+                    ))}
+                </div>
+            )}
+
             <div className="bg-white border rounded-lg p-6 shadow-sm">
                 <div className="grid grid-cols-2 gap-6">
                     <div>
