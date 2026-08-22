@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import api from '../services/api';
 
 interface Car {
@@ -19,10 +20,13 @@ export default function HomePage() {
     return (
         <div>
             <h1>Автомобили</h1>
+            <Link to="/create-car">Создать объявление</Link>
             <div>
                 {cars.map((car) => (
                     <div key={car.id}>
-                        <h3>{car.title}</h3>
+                        <h3>
+                            <Link to={`/cars/${car.id}`}>{car.title}</Link>
+                        </h3>
                         <p>Год: {car.year}</p>
                         <p>Пробег: {car.mileage} км</p>
                         <p>Цена: {car.price} €</p>
