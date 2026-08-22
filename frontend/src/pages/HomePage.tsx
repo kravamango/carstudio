@@ -9,6 +9,7 @@ interface Car {
     year: number;
     mileage: number;
     brand: string;
+    photos: string[];
 }
 
 export default function HomePage() {
@@ -89,12 +90,25 @@ export default function HomePage() {
                     <Link
                         to={`/cars/${car.id}`}
                         key={car.id}
-                        className="border rounded-lg p-4 hover:shadow-lg transition bg-white"
+                        className="border rounded-lg overflow-hidden hover:shadow-lg transition bg-white"
                     >
-                        <h3 className="text-xl font-semibold mb-2">{car.title}</h3>
-                        <p className="text-gray-600">Год: {car.year}</p>
-                        <p className="text-gray-600">Пробег: {car.mileage} км</p>
-                        <p className="text-2xl font-bold text-green-600 mt-2">{car.price} €</p>
+                        {car.photos && car.photos.length > 0 ? (
+                            <img
+                                src={`http://localhost:5001${car.photos[0]}`}
+                                alt={car.title}
+                                className="w-full h-48 object-cover"
+                            />
+                        ) : (
+                            <div className="w-full h-48 bg-gray-200 flex items-center justify-center text-gray-400">
+                                Нет фото
+                            </div>
+                        )}
+                        <div className="p-4">
+                            <h3 className="text-xl font-semibold mb-2">{car.title}</h3>
+                            <p className="text-gray-600">Год: {car.year}</p>
+                            <p className="text-gray-600">Пробег: {car.mileage} км</p>
+                            <p className="text-2xl font-bold text-green-600 mt-2">{car.price} €</p>
+                        </div>
                     </Link>
                 ))}
             </div>

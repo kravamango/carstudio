@@ -141,7 +141,7 @@ export default function CreateCarPage() {
                     {form.photos.length > 0 && (
                         <div className="flex gap-2 mt-2">
                             {form.photos.map((photo, index) => (
-                                <img key={index} src={photo} alt="" className="w-20 h-20 object-cover rounded" />
+                                <img key={index} src={`http://localhost:5001${photo}`} alt="" className="w-20 h-20 object-cover rounded" />
                             ))}
                         </div>
                     )}

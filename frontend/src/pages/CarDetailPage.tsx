@@ -39,7 +39,7 @@ export default function CarDetailPage() {
             {car.photos && car.photos.length > 0 && (
                 <div className="grid grid-cols-3 gap-4 mb-6">
                     {car.photos.map((photo, index) => (
-                        <img key={index} src={photo} alt="" className="w-full h-48 object-cover rounded" />
+                        <img key={index} src={`http://localhost:5001${photo}`} alt="" className="w-full h-48 object-cover rounded" />
                     ))}
                 </div>
             )}
